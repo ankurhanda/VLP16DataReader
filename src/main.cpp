@@ -81,7 +81,7 @@ int main(void)
                 viewer->updatePointCloud<pcl::PointXYZ> (cloud);
             }
 
-            viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 6);
+            viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3);
 
         }
 
